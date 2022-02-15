@@ -1,5 +1,10 @@
 .tab-menu{
-    background: #F7F8FA;
-    height: 80px;
-    width: 100%;
+    background: #a6a9aa;
+    
+}
+.tab-btn:hover{
+    border: 1px solid #C42F46;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #C42F46;
 }
