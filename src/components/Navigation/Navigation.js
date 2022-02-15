@@ -81,7 +81,7 @@ const Navigation = () => {
           <a className="nav-link" href="#">যোগাযোগ</a>
         </li>
             </ul>
-            <button className="regular-btn d-flex justify-content-center"><i className='bx bx-log-in-circle me-2 fs-5'></i><span>লগ-ইন</span></button>
+            <button className="regular-btn d-flex justify-content-center"><i className='fa-solid fa-arrow-right-to-bracket me-2 fs-5'></i><span>লগ-ইন</span></button>
           </div>
         </div>
       </nav>

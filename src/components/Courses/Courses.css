@@ -1,10 +1,20 @@
-.tab-menu{
-    background: #a6a9aa;
-    
-}
 .tab-btn:hover{
     border: 1px solid #C42F46;
     border-radius: 10px;
     cursor: pointer;
+    color: #C42F46;
+}
+
+.project{
+    position: relative;
+    overflow: hidden;
+}
+.project img{
+    transition: all 0.4s ease;
+}
+.project img:hover{
+    transform: scale(1.1);
+}
+.overlay:hover h5{
     color: #C42F46;
 }

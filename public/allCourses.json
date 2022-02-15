@@ -3,7 +3,7 @@
     "id": 1,
     "category": "photoshop",
     "image": "https://i.ibb.co/tptG5wS/photoshop-1.jpg",
-    "title": "ফটোশপ",
+    "title": "ফটোশপ ম্যাজিক কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "category": "photoshop",
     "image": "https://i.ibb.co/tptG5wS/photoshop-1.jpg",
-    "title": "ফটোশপ",
+    "title": "ফটোশপ ম্যাজিক কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "category": "photoshop",
     "image": "https://i.ibb.co/0qZw81z/photoshop-3.jpg",
-    "title": "ফটোশপ",
+    "title": "ফটোশপ মাস্টার কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "category": "graphic",
     "image": "https://i.ibb.co/HdMxKQS/graphic-design.jpg",
-    "title": "গ্রাফিক্স ডিজাইন",
+    "title": "গ্রাফিক্স ডিজাইন ম্যাজিক কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -35,15 +35,15 @@
     "id": 5,
     "category": "adobe",
     "image": "https://i.ibb.co/XCBNzq2/Illustrator-1.jpg",
-    "title": "অ্যাডোবি ইলাস্ট্রেটর",
+    "title": "অ্যাডোবি ইলাস্ট্রেটর মাস্টার কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
   {
     "id": 6,
     "category": "adobe",
-    "image": "https://i.ibb.co/372D103/Illustrator-2.jpg",
-    "title": "অ্যাডোবি ইলাস্ট্রেটর",
+    "image": "https://i.ibb.co/XCBNzq2/Illustrator-1.jpg",
+    "title": "অ্যাডোবি ইলাস্ট্রেটর মাস্টার কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "category": "computer",
     "image": "https://i.ibb.co/rxVgHzH/computer.jpg",
-    "title": "কম্পিউটার",
+    "title": "কম্পিউটার শিখুন নতুন ও সহজভাবে",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "category": "cpa",
     "image": "https://i.ibb.co/Qnqjvtm/cpa.jpg",
-    "title": "সিপিএ",
+    "title": "সিপিএ মাস্টার কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "category": "fiverr",
     "image": "https://i.ibb.co/qRNDfmk/fiverr.jpg",
-    "title": "ফাইভার",
+    "title": "ফাইভার মাস্টার কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "category": "git",
     "image": "https://i.ibb.co/gzHgq23/git.jpg",
-    "title": "গিট",
+    "title": "গিট ম্যাজিক কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -91,7 +91,7 @@
     "id": 12,
     "category": "googleAds",
     "image": "https://i.ibb.co/3k3QVPS/google-ads.jpg",
-    "title": "গুগল এডস",
+    "title": "গুগল এডস ম্যাজিক কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "category": "seo",
     "image": "https://i.ibb.co/0yT9c7S/seo.jpg",
-    "title": "এসইও",
+    "title": "এসইও মাস্টার কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "category": "spokenEnglish",
     "image": "https://i.ibb.co/YNFwvPZ/spoken-english.jpg",
-    "title": "স্পকেন ইংলিশ",
+    "title": "স্পোকেন ইংলিশ ম্যাজিক কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "category": "wordpress",
     "image": "https://i.ibb.co/6RhbPwM/wordpress-1.jpg",
-    "title": "ওয়ার্ডপ্রেস",
+    "title": "ওয়ার্ডপ্রেস ম্যাজিক কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "category": "wordpress",
     "image": "https://i.ibb.co/9T5qRCh/wordpress-2.jpg",
-    "title": "ওয়ার্ডপ্রেস",
+    "title": "ওয়ার্ডপ্রেস মাস্টার কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   },
@@ -131,7 +131,7 @@
     "id": 17,
     "category": "wordpress",
     "image": "https://i.ibb.co/6RhbPwM/wordpress-1.jpg",
-    "title": "ওয়ার্ডপ্রেস",
+    "title": "ওয়ার্ডপ্রেস ম্যাজিক কোর্স",
     "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
     "price": "৫০০ টাকা"
   }
