@@ -175,14 +175,11 @@ const Courses = () => {
               />
               <div className="card-body overlay">
                 <h5 className="card-title fw-bold">{pd?.title}</h5>
-                <p className="card-text">
-                  {pd?.des}
-                </p>
+                <p className="card-text">{pd?.des}</p>
                 <div className="d-flex justify-content-between align-items-center">
-                    <button className="regular-btn">শেখা শুরু করুন</button>
-                    <h6 className="fw-bold">ফি {pd.price}</h6>
+                  <button className="regular-btn">শেখা শুরু করুন</button>
+                  <h6 className="fw-bold">ফি {pd.price}</h6>
                 </div>
-               
               </div>
             </div>
           </div>
