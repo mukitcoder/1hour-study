@@ -75,13 +75,13 @@ const Navigation = () => {
                 </ul>
               </li>
               <li className="nav-item me-5">
-          <a className="nav-link" aria-current="page" href="#">ক্যারিয়ার</a>
+          <a className="nav-link" href="#">ক্যারিয়ার</a>
         </li>
               <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">যোগাযোগ</a>
+          <a className="nav-link" href="#">যোগাযোগ</a>
         </li>
             </ul>
-            <button className="regular-btn"> লগ-ইন </button>
+            <button className="regular-btn d-flex justify-content-center"><i className='bx bx-log-in-circle me-2 fs-5'></i><span>লগ-ইন</span></button>
           </div>
         </div>
       </nav>
