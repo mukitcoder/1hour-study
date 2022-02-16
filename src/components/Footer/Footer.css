@@ -1,0 +1,21 @@
+.footer-main{
+    background: #f5ddd7;
+}
+.footer-main h5:hover{
+   cursor: pointer;
+   color: #C42F46;
+}
+.footer-section img{
+    width: 120px;
+    height: 75px;
+}
+.footer-main ul {
+    list-style: none;
+}
+.footer-section-2 ul li{
+    cursor: pointer;
+    list-style: none;
+}
+.footer-section-2 ul li:hover{
+    color: #C42F46;
+}

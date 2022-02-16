@@ -7,7 +7,6 @@
   position: relative;
   overflow: hidden;
 }
-
 .instructor-main .card::before {
   content: "";
   position: absolute;
@@ -32,7 +31,6 @@
 }
 
 .instructor-icons .fa-brands {
-
   transition: 0.5s;
 }
 .instructor-icons .fa-brands:hover {

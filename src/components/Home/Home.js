@@ -3,6 +3,7 @@ import Courses from '../Courses/Courses';
 import Courses2 from '../Courses/Courses2';
 import Courses3 from '../Courses/Courses3';
 import Expertise from '../Expertise/Expertise';
+import Footer from '../Footer/Footer';
 import Hero from '../Hero/Hero';
 import Instructors from '../Instructors/Instructors';
 import Review from '../Review/Review';
@@ -21,6 +22,7 @@ const Home = () => {
             <Review/>
             <SkillDevelopment/>
             <Instructors/>
+            <Footer/>
         </div>
     );
 };
