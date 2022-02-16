@@ -29,7 +29,7 @@
     margin: 0 auto 17px;
   }
   #customer-testimonoals {
-    /* margin-top: 6%; */
+    margin-top: 6%;
   }
   .testimonial-name {
     margin: -17px auto 0;
@@ -46,7 +46,7 @@
   }
   #customer-testimonoals .item {
     text-align: center;
-    padding: 50px;
+    padding: -20px;
     margin-bottom: 0px;
     opacity: 0.2;
     transform: scale3d(0.8, 0.8, 1);
@@ -79,3 +79,6 @@
     transform-origin: 50% 50% 0;
     transition: all 250ms ease-out 0s;
   } 
+  .owl-item{
+    width: 500px;
+  }
