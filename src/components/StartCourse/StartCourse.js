@@ -1,16 +1,21 @@
-import React from 'react';
-import './StartCourse.css';
+import React from "react";
+import "./StartCourse.css";
 import skill from "../../images/expertise/Group-1.png";
 import expert from "../../images/expertise/Group-2.png";
 import quiz from "../../images/expertise/Group-3.png";
-
+import abc1 from "../../images/abc-1.png";
 
 const StartCourse = () => {
-    return (
-        <div className="expertise-main py-3 my-5">
-      <h2 className="text-center fw-bold w-75 mx-auto my-5">
-      অনলাইনে <span className="hero-text">কোর্স</span> কিভাবে শুরু করবেন?
-      </h2>   
+  return (
+    <div className="expertise-main py-3 my-5">
+      <div className="expertise-text row mb-4 mx-2">
+        <div className="col-md-7 d-flex justify-content-center align-items-center mx-auto">
+          <img className="img-fluid" src={abc1} alt="expertPic" />
+          <h2 className="fw-bold">
+            অনলাইনে <span className="hero-text">কোর্স</span> কিভাবে শুরু করবেন ?
+          </h2>
+        </div>
+      </div>
 
       <div className="container">
         <div className="row g-5 pb-5">
@@ -24,8 +29,7 @@ const StartCourse = () => {
               <div className="text-center">
                 <h5 className="py-2">ধাপ-১ঃ</h5>
                 <p className="px-2">
-                1 HOUR STUDY ওয়েবসাইটে গিয়ে একাউন্ট তৈরি করে নিবেন 
-
+                  1 HOUR STUDY ওয়েবসাইটে গিয়ে একাউন্ট তৈরি করে নিবেন
                 </p>
               </div>
             </div>
@@ -40,8 +44,7 @@ const StartCourse = () => {
               <div className="text-center">
                 <h5 className="py-2">ধাপ-২ঃ</h5>
                 <p className="px-2">
-                পছন্দের কোর্স ক্যাটাগরি পেইজ থেকে নির্বাচন করবেন 
-
+                  পছন্দের কোর্স ক্যাটাগরি পেইজ থেকে নির্বাচন করবেন
                 </p>
               </div>
             </div>
@@ -56,7 +59,8 @@ const StartCourse = () => {
               <div className="text-center">
                 <h5 className="py-2">ধাপ-৩ঃ</h5>
                 <p className="px-2">
-                কোর্স ইনরোল করার সময় অনলাইনে পেমেন্ট করতে হবে সমপরিমান মূল্য প্রদান করে। 
+                  কোর্স ইনরোল করার সময় অনলাইনে পেমেন্ট করতে হবে সমপরিমান মূল্য
+                  প্রদান করে।
                 </p>
               </div>
             </div>
@@ -70,16 +74,14 @@ const StartCourse = () => {
               />
               <div className="text-center">
                 <h5 className="py-2">ধাপ-৪ঃ</h5>
-                <p className="px-2">
-                স্কিল অর্জন ও চর্চা শুরু করুন। 
-                </p>
+                <p className="px-2">স্কিল অর্জন ও চর্চা শুরু করুন।</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default StartCourse;

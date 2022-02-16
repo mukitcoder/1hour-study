@@ -1,22 +1,31 @@
 import React from "react";
 import "./Expertise.css";
-import skill from "../../images/expertise/Group-1.png";
-import expert from "../../images/expertise/Group-2.png";
-import quiz from "../../images/expertise/Group-3.png";
+import free from "../../images/icons/free.png";
+import live from "../../images/icons/live.png";
+import teacher from "../../images/icons/teacher.png";
+import homeWork from "../../images/icons/home-work.png";
+import info from "../../images/icons/info.png";
+import intern from "../../images/icons/skills.png";
+import abc from "../../images/abc.png";
 
 const Expertise = () => {
   return (
     <div className="expertise-main py-3 my-5">
-      <h2 className="text-center fw-bold w-75 mx-auto my-5">
-        আমাদের <span className="hero-text">বিশেষত্ব</span>
-      </h2>
+      <div className="expertise-text row mb-4">
+        <div className="col-md-4 d-flex justify-content-center align-items-center mx-auto">
+          <img className="img-fluid" src={abc} alt="expertPic" />
+          <h2 className="fw-bold">
+            আমাদের <span className="hero-text">বিশেষত্ব</span>
+          </h2>
+        </div>
+      </div>
       <div className="container">
         <div className="row g-5 pb-5">
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="d-grid bg-white p-2 expertise-section">
               <img
-                className="img-fluid mx-auto mb-2"
-                src={skill}
+                className="img-fluid mx-auto my-2"
+                src={free}
                 alt="expertiseImage"
               />
               <div className="text-center">
@@ -31,8 +40,8 @@ const Expertise = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="d-grid bg-white p-2 expertise-section">
               <img
-                className="img-fluid mx-auto mb-2"
-                src={expert}
+                className="img-fluid mx-auto my-2"
+                src={live}
                 alt="expertiseImage"
               />
               <div className="text-center">
@@ -46,8 +55,8 @@ const Expertise = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="d-grid bg-white p-2 expertise-section">
               <img
-                className="img-fluid mx-auto mb-2"
-                src={quiz}
+                className="img-fluid mx-auto my-2"
+                src={teacher}
                 alt="expertiseImage"
               />
               <div className="text-center">
@@ -61,8 +70,8 @@ const Expertise = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="d-grid bg-white p-2 expertise-section">
               <img
-                className="img-fluid mx-auto mb-2"
-                src={skill}
+                className="img-fluid mx-auto my-2"
+                src={homeWork}
                 alt="expertiseImage"
               />
               <div className="text-center">
@@ -77,8 +86,8 @@ const Expertise = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="d-grid bg-white p-2 expertise-section">
               <img
-                className="img-fluid mx-auto mb-2"
-                src={skill}
+                className="img-fluid mx-auto my-2"
+                src={info}
                 alt="expertiseImage"
               />
               <div className="text-center">
@@ -93,8 +102,8 @@ const Expertise = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="d-grid bg-white p-2 expertise-section">
               <img
-                className="img-fluid mx-auto mb-2"
-                src={skill}
+                className="img-fluid mx-auto my-2"
+                src={intern}
                 alt="expertiseImage"
               />
               <div className="text-center">

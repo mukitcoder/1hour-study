@@ -4,6 +4,10 @@
     cursor: pointer;
     color: #C42F46;
 }
+.tab-btn img {
+    height: 50px;
+    width: 50px;
+}
 
 .project{
     position: relative;

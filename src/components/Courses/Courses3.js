@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./Courses.css";
+import dm from "../../images/digital_marketing.png";
 import axios from "axios";
-import photoshop from "../../images/icons/photoshop.png";
-import graphicDesign from "../../images/icons/graphic-design.png";
-import adobe from "../../images/icons/adobe.png";
-import webDesign from "../../images/icons/web-design.png";
 
-const Courses = () => {
+const Courses3 = () => {
   const [items, setItems] = useState([]);
   const [filteredData, setFilteredData] = useState(items);
 
@@ -24,12 +21,11 @@ const Courses = () => {
     setItems(updatedItems);
   };
   return (
-    <div className="container">
+    <div className="container pt-5 mt-5">
       <h2 className="text-center fw-bold w-75 mx-auto my-5">
-        আইটি স্কিলে নিজেকে দক্ষ করে তুলতে ক্যাটাগরি থেকে নিজের পছন্দের কোর্স
-        নির্বাচন করুন এবং শিখে অনলাইনে{" "}
-        <span className="hero-text">দক্ষ ক্যারিয়ার</span> তৈরি করুন।{" "}
+       মার্কেটপ্লেস ও কর্মজীবনে নিজের <span className="hero-text">দক্ষ ক্যারিয়ার</span> তৈরি করুন{" "}
       </h2>
+
 
       {/* tab-menu start */}
 
@@ -38,45 +34,42 @@ const Courses = () => {
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
-              onClick={() => filterItem("photoshop")}
+              onClick={() => filterItem("wordpress")}
             >
-              <img className="img-fluid mx-3" src={photoshop} alt="tabIcon" />
-              <h5 className="fw-bold">ফটোশপ</h5>
+              <img className="img-fluid mx-3" src={dm} alt="" />
+              <h5 className="fw-bold">ওয়ার্ডপ্রেস</h5>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
-              onClick={() => filterItem("graphic")}
+              onClick={() => filterItem("googleAds")}
             >
-              <img
-                className="img-fluid mx-3"
-                src={graphicDesign}
-                alt="tabIcon"
-              />
-              <h5 className="fw-bold">গ্রাফিক্স ডিজাইন</h5>
+              <img className="img-fluid mx-3" src={dm} alt="" />
+              <h5 className="fw-bold">গুগল এডস</h5>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
-              onClick={() => filterItem("adobe")}
+              onClick={() => filterItem("spokenEnglish")}
             >
-              <img className="img-fluid mx-3" src={adobe} alt="tabIcon" />
-              <h5 className="fw-bold">অ্যাডোবি ইলাস্ট্রেটর</h5>
+              <img className="img-fluid mx-3" src={dm} alt="" />
+              <h5 className="fw-bold">স্পোকেন ইংলিশ</h5>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
-              onClick={() => filterItem("webDesign")}
+              onClick={() => setItems(items)}
             >
-              <img className="img-fluid mx-3" src={webDesign} alt="tabIcon" />
-              <h5 className="fw-bold">ওয়েব ডিজাইন এন্ড ডেভেলপমেন্ট</h5>
+              <img className="img-fluid mx-3" src={dm} alt="" />
+              <h5 className="fw-bold">NFT</h5>
             </div>
           </div>
         </div>
       </div>
+
       {/* tab-menu stop */}
 
       {/* Courses gallery start */}
@@ -107,4 +100,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default Courses3;

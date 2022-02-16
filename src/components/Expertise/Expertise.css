@@ -1,6 +1,10 @@
 .expertise-main{
     background: #FEF0EC;
 }
+.expertise-text img {
+    width: 200px;
+    height: 200px;
+}
 .expertise-section img{
     height: 72px;
     width: 72px;

@@ -1,7 +1,10 @@
 import React from 'react';
 import Courses from '../Courses/Courses';
+import Courses2 from '../Courses/Courses2';
+import Courses3 from '../Courses/Courses3';
 import Expertise from '../Expertise/Expertise';
 import Hero from '../Hero/Hero';
+import Review from '../Review/Review';
 import StartCourse from '../StartCourse/StartCourse';
 
 const Home = () => {
@@ -9,8 +12,11 @@ const Home = () => {
         <div>
             <Hero/>
             <Courses/>
+            <Courses2/>
+            <Courses3/>
             <Expertise/>
             <StartCourse/>
+            <Review/>
         </div>
     );
 };
