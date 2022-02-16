@@ -1,3 +1,13 @@
+.review-text-bg img{
+ position: relative;
+}
+.review-text-bg h2{
+ position: absolute;
+
+ left: 0%;
+}
+
+
 .shadow-effect {
     background: #fff;
     padding: 20px;

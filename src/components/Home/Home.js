@@ -5,6 +5,7 @@ import Courses3 from '../Courses/Courses3';
 import Expertise from '../Expertise/Expertise';
 import Hero from '../Hero/Hero';
 import Review from '../Review/Review';
+import SkillDevelopment from '../SkillDevelopment/SkillDevelopment';
 import StartCourse from '../StartCourse/StartCourse';
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <Expertise/>
             <StartCourse/>
             <Review/>
+            <SkillDevelopment/>
         </div>
     );
 };
