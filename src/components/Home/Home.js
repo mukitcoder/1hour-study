@@ -4,6 +4,7 @@ import Courses2 from '../Courses/Courses2';
 import Courses3 from '../Courses/Courses3';
 import Expertise from '../Expertise/Expertise';
 import Hero from '../Hero/Hero';
+import Instructors from '../Instructors/Instructors';
 import Review from '../Review/Review';
 import SkillDevelopment from '../SkillDevelopment/SkillDevelopment';
 import StartCourse from '../StartCourse/StartCourse';
@@ -19,6 +20,7 @@ const Home = () => {
             <StartCourse/>
             <Review/>
             <SkillDevelopment/>
+            <Instructors/>
         </div>
     );
 };

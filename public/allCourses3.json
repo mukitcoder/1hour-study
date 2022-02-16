@@ -1,0 +1,50 @@
+[
+   {
+    "id": 12,
+    "category": "googleAds",
+    "image": "https://i.ibb.co/3k3QVPS/google-ads.jpg",
+    "title": "গুগল এডস ম্যাজিক কোর্স",
+    "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
+    "price": "৫০০ টাকা"
+  },
+  {
+    "id": 13,
+    "category": "seo",
+    "image": "https://i.ibb.co/0yT9c7S/seo.jpg",
+    "title": "এসইও মাস্টার কোর্স",
+    "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
+    "price": "৫০০ টাকা"
+  },
+  {
+    "id": 14,
+    "category": "spokenEnglish",
+    "image": "https://i.ibb.co/YNFwvPZ/spoken-english.jpg",
+    "title": "স্পোকেন ইংলিশ ম্যাজিক কোর্স",
+    "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
+    "price": "৫০০ টাকা"
+  },
+  {
+    "id": 15,
+    "category": "wordpress",
+    "image": "https://i.ibb.co/6RhbPwM/wordpress-1.jpg",
+    "title": "ওয়ার্ডপ্রেস ম্যাজিক কোর্স",
+    "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
+    "price": "৫০০ টাকা"
+  },
+  {
+    "id": 16,
+    "category": "wordpress",
+    "image": "https://i.ibb.co/9T5qRCh/wordpress-2.jpg",
+    "title": "ওয়ার্ডপ্রেস মাস্টার কোর্স",
+    "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
+    "price": "৫০০ টাকা"
+  },
+  {
+    "id": 17,
+    "category": "wordpress",
+    "image": "https://i.ibb.co/6RhbPwM/wordpress-1.jpg",
+    "title": "ওয়ার্ডপ্রেস ম্যাজিক কোর্স",
+    "des": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolor.",
+    "price": "৫০০ টাকা"
+  }
+]

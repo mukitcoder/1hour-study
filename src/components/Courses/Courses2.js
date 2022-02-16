@@ -10,7 +10,7 @@ const Courses2 = () => {
   const [filteredData, setFilteredData] = useState(items);
 
   useEffect(() => {
-    axios(`/allCourses.json`).then((res) => {
+    axios(`/allCourses2.json`).then((res) => {
       setItems(res.data);
       setFilteredData(res.data);
     });

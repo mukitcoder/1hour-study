@@ -1,12 +1,9 @@
-.review-text-bg img{
- position: relative;
+.review-text-main{
+  background-image: url(../../images/left-bg-shape.svg);
+  background-repeat: no-repeat;
+  /* height: 100px; */
+  background-size: 100% 100%;
 }
-.review-text-bg h2{
- position: absolute;
-
- left: 0%;
-}
-
 
 .shadow-effect {
     background: #fff;
@@ -32,7 +29,7 @@
     margin: 0 auto 17px;
   }
   #customer-testimonoals {
-    margin-top: 6%;
+    /* margin-top: 6%; */
   }
   .testimonial-name {
     margin: -17px auto 0;

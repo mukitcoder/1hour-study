@@ -1,0 +1,43 @@
+.instructor img {
+  width: 100px ;
+  height: 100px ;
+}
+.instructor-main .card {
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.instructor-main .card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  height: 100%;
+  width: 100%;
+  background: #f5ddd7;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+.instructor-main .card:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
+  transition: 0.5s;
+}
+
+.instructor-main .card img {
+  position: relative;
+}
+.instructor-main .card .card-body {
+  position: relative;
+}
+
+.instructor-icons .fa-brands {
+
+  transition: 0.5s;
+}
+.instructor-icons .fa-brands:hover {
+  color: #c42f46;
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: 0.5s;
+}

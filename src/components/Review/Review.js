@@ -5,8 +5,8 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ReviewDetails from "./ReviewDetails";
 import userPic from "../../images/icons/teacher.png";
-import abc2 from '../../images/abc-2.png';
-import reviewImage from '../../images/left-bg-shape.svg';
+import abc2 from "../../images/abc-2.png";
+import reviewImage from "../../images/left-bg-shape.svg";
 
 const Review = () => {
   const testiMonials = [
@@ -59,18 +59,17 @@ const Review = () => {
     },
   };
   return (
-    <section id="testimonial" className="testimonials pt-5">
+    <section id="testimonial" className="testimonials pt-3">
       <div className="container mt-5">
         <div className="expertise-text-2 row mx-2 px-2">
-          <div className="col-md-9 d-flex justify-content-center align-items-center mx-auto">
-            <img className="img-fluid" src={abc2} alt="expertPic" />
-            <div className="review-text-bg">
-              <img src= {reviewImage} alt="" />
-            <h2 className="fw-bold">
-              আমাদের শিক্ষার্থীগন{" "}
-              <span className="hero-text">1 HOUR STUDY</span> সম্পর্কে কি ধরনের
-              মতামত প্রদান করে থাকেন
-            </h2>
+          <div className="col-md-9 col-sm-12 d-flex justify-content-center align-items-center mx-auto">
+            <img className="img-fluid d-none d-lg-block" src={abc2} alt="expertPic" />
+            <div className="review-text-main">
+                <h2 className="fw-bold px-2">
+                  আমাদের শিক্ষার্থীগন{" "}
+                  <span className="hero-text">1 HOUR STUDY</span> সম্পর্কে কি
+                  ধরনের মতামত প্রদান করে থাকেন
+                </h2>
             </div>
           </div>
         </div>
