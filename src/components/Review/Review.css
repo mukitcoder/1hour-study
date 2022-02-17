@@ -47,7 +47,7 @@
   #customer-testimonoals .item {
     text-align: center;
     padding: -20px;
-    margin-bottom: 0px;
+    margin-bottom: 3px;
     opacity: 0.2;
     transform: scale3d(0.8, 0.8, 1);
     transition: all 0.3s ease-in-out;
@@ -80,5 +80,5 @@
     transition: all 250ms ease-out 0s;
   } 
   .owl-item{
-    width: 500px;
+    /* width: 500px; */
   }

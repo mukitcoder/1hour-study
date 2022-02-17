@@ -59,8 +59,8 @@ const Review = () => {
     },
   };
   return (
-    <section id="testimonial" className="testimonials pt-3">
-      <div className="container mt-5">
+    <section id="testimonial" className="testimonials">
+      <div className="container">
         <div className="expertise-text-2 row mx-2 px-2">
           <div className="col-md-9 col-sm-12 d-flex justify-content-center align-items-center mx-auto">
             <img className="img-fluid d-none d-lg-block" src={abc2} alt="expertPic" />
