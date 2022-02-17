@@ -47,7 +47,7 @@
   #customer-testimonoals .item {
     text-align: center;
     padding: -20px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     opacity: 0.2;
     transform: scale3d(0.8, 0.8, 1);
     transition: all 0.3s ease-in-out;
