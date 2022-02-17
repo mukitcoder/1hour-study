@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./Courses.css";
 import dm from "../../images/digital_marketing.png";
 import axios from "axios";
+import wp from '../../images/icons/wordpress.png'
+import ads from '../../images/icons/google-ads.png'
+import english from '../../images/icons/spoken-english.png'
+import nft from '../../images/icons/nft.png'
 
 const Courses3 = () => {
   const [items, setItems] = useState([]);
@@ -36,7 +40,7 @@ const Courses3 = () => {
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
               onClick={() => filterItem("wordpress")}
             >
-              <img className="img-fluid mx-3" src={dm} alt="" />
+              <img className="img-fluid mx-3" src={wp} alt="" />
               <h5 className="fw-bold">ওয়ার্ডপ্রেস</h5>
             </div>
           </div>
@@ -45,7 +49,7 @@ const Courses3 = () => {
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
               onClick={() => filterItem("googleAds")}
             >
-              <img className="img-fluid mx-3" src={dm} alt="" />
+              <img className="img-fluid mx-3" src={ads} alt="" />
               <h5 className="fw-bold">গুগল এডস</h5>
             </div>
           </div>
@@ -54,7 +58,7 @@ const Courses3 = () => {
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
               onClick={() => filterItem("spokenEnglish")}
             >
-              <img className="img-fluid mx-3" src={dm} alt="" />
+              <img className="img-fluid mx-3" src={english} alt="" />
               <h5 className="fw-bold">স্পোকেন ইংলিশ</h5>
             </div>
           </div>
@@ -63,7 +67,7 @@ const Courses3 = () => {
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
               onClick={() => setItems(items)}
             >
-              <img className="img-fluid mx-3" src={dm} alt="" />
+              <img className="img-fluid mx-3" src={nft} alt="" />
               <h5 className="fw-bold">NFT</h5>
             </div>
           </div>

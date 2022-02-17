@@ -1,9 +1,10 @@
 import React from "react";
 import "./StartCourse.css";
-import skill from "../../images/expertise/Group-1.png";
-import expert from "../../images/expertise/Group-2.png";
-import quiz from "../../images/expertise/Group-3.png";
 import abc1 from "../../images/abc-1.png";
+import step1 from "../../images/icons/step-1.png"
+import step2 from "../../images/icons/step-2.png"
+import step3 from "../../images/icons/step-3.png"
+import step4 from "../../images/icons/step-4.png"
 
 const StartCourse = () => {
   return (
@@ -23,7 +24,7 @@ const StartCourse = () => {
             <div className="d-grid bg-white p-2 expertise-section">
               <img
                 className="img-fluid mx-auto mb-2"
-                src={skill}
+                src={step1}
                 alt="expertiseImage"
               />
               <div className="text-center">
@@ -38,7 +39,7 @@ const StartCourse = () => {
             <div className="d-grid bg-white p-2 expertise-section">
               <img
                 className="img-fluid mx-auto mb-2"
-                src={expert}
+                src={step2}
                 alt="expertiseImage"
               />
               <div className="text-center">
@@ -53,7 +54,7 @@ const StartCourse = () => {
             <div className="d-grid bg-white p-2 expertise-section">
               <img
                 className="img-fluid mx-auto mb-2"
-                src={quiz}
+                src={step3}
                 alt="expertiseImage"
               />
               <div className="text-center">
@@ -69,7 +70,7 @@ const StartCourse = () => {
             <div className="d-grid bg-white p-2 expertise-section">
               <img
                 className="img-fluid mx-auto mb-2"
-                src={skill}
+                src={step4}
                 alt="expertiseImage"
               />
               <div className="text-center">

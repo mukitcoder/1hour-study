@@ -1,5 +1,5 @@
 .tab-btn:hover{
-    border: 1px solid #C42F46;
+    background-color: #F1CDD3 !important;
     border-radius: 10px;
     cursor: pointer;
     color: #C42F46;

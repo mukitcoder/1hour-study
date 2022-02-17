@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Courses.css";
 import axios from "axios";
 import computer from '../../images/icons/computer.png'
+import fiverr from '../../images/icons/fiverr-logo.png'
+import cpa from '../../images/icons/skills.png'
+import github from '../../images/icons/github-logo.png'
 
 import dm from "../../images/digital_marketing.png";
 
@@ -46,7 +49,7 @@ const Courses2 = () => {
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
               onClick={() => filterItem("fiverr")}
             >
-              <img className="img-fluid mx-3" src={dm} alt="" />
+              <img className="img-fluid mx-3" src={fiverr} alt="" />
               <h5 className="fw-bold">ফাইভার</h5>
             </div>
           </div>
@@ -55,7 +58,7 @@ const Courses2 = () => {
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
               onClick={() => filterItem("cpa")}
             >
-              <img className="img-fluid mx-3" src={dm} alt="" />
+              <img className="img-fluid mx-3" src={cpa} alt="" />
               <h5 className="fw-bold">সিপিএ</h5>
             </div>
           </div>
@@ -64,7 +67,7 @@ const Courses2 = () => {
               className="d-flex align-items-center justify-content-center bg-white py-3 tab-btn"
               onClick={() => filterItem("git")}
             >
-              <img className="img-fluid mx-3" src={dm} alt="" />
+              <img className="img-fluid mx-3" src={github} alt="" />
               <h5 className="fw-bold">গিট</h5>
             </div>
           </div>

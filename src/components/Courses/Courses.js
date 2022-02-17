@@ -3,7 +3,7 @@ import "./Courses.css";
 import axios from "axios";
 import photoshop from "../../images/icons/photoshop.png";
 import graphicDesign from "../../images/icons/graphic-design.png";
-import adobe from "../../images/icons/adobe.png";
+import adobe from "../../images/icons/adobe-logo.png";
 import webDesign from "../../images/icons/web-design.png";
 
 const Courses = () => {
