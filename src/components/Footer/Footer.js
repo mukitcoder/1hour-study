@@ -57,6 +57,7 @@ const Footer = () => {
       </div>
       <div className="text-center">
           <p>স্বত্ব © ২০২০-২০২২ 1 Hour Study কতৃক সর্বস্বত্ব সংরক্ষিত</p>
+          <a href="https://github.com/mukitcoder" target="_blank" rel="noopener noreferrer">Created By Abdullah Al Mukit</a>
       </div>
     </div>
     </div>
