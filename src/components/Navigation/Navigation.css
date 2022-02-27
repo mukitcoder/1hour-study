@@ -4,12 +4,12 @@
 }
 
 .nav-item a:hover{
-    border-bottom: 1px solid #C42F46 ;
+    border-bottom: 1px solid #E87A00 ;
 }
 
 .regular-btn {
     /* background: #ff5d56; */
-    background: #C42F46;
+    background: #E87A00;
     border: 0;
     padding: 12px 35px;
     border-radius: 35px;
