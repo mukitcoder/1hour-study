@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="hero-main">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 d-flex align-items-center text-lg-left  mt-5">
+          <div className="col-md-6 d-flex align-items-center text-md-left text-xs-center mt-5">
             <div>
               <h1 className="fw-bold">আইটি স্কিল ডেভেলপ করুন অনলাইনে <span className="hero-text">স্বাধীন ক্যারিয়ার</span> গড়ুন।</h1>
               <p className="fs-5 py-3">

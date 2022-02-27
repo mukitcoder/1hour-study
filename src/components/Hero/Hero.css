@@ -5,3 +5,10 @@
 .hero-text{
     color: #E87A00;
 }
+
+@media (max-width: 767px) {
+
+    .text-xs-center {
+      text-align: center;
+    } 
+  }
