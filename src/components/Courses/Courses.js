@@ -41,10 +41,10 @@ const Courses = () => {
     items: 3,
     margin: 0,
     autoplay: true,
-    dots: false,
+    dots: true,
     autoplayTimeout: 8500,
     smartSpeed: 450,
-    nav: Boolean,
+    nav: false,
     responsive: {
       0: {
         items: 1,

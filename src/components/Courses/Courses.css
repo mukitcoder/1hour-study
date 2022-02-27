@@ -26,3 +26,6 @@
 .courses .owl-carousel .owl-item img{
  width: 15%;
 }
+.courses .owl-carousel .owl-dots .owl-dot span{
+    margin: 7px 1px -20px;
+}
