@@ -1,13 +1,24 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Home from './components/Home/Home';
-import Navigation from './components/Navigation/Navigation';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home/Home";
+import Navigation from "./components/Navigation/Navigation";
+import Login from "./components/Login/Login";
+import Footer from "./components/Footer/Footer";
+import Register from "./components/Login/Register";
 
 function App() {
   return (
     <div className="App">
-      <Navigation/>
-      <Home/>
+      <BrowserRouter>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="login" element={<Login />}></Route>
+          <Route path="register" element={<Register />}></Route>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

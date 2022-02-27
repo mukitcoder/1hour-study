@@ -48,10 +48,10 @@ const Footer = () => {
             </li>
           </ul>
           <div className="d-flex justify-content-around fs-4 mb-3 instructor-icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </div>
         </div>
       </div>

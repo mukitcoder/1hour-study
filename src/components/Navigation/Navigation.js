@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 import "./Navigation.css";
 
@@ -23,11 +24,20 @@ const Navigation = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fw-bold">
-            <li className="nav-item me-5">
-          <a className="nav-link active" aria-current="page" href="#">হোম</a>
-        </li>
-        
-              <li className="nav-item dropdown me-5">
+              <Link to="/">
+              <li className="nav-item me-5">
+                <a className="nav-link active" aria-current="page" href="#">
+                  হোম
+               </a>
+              </li>
+              </Link>
+              <li className="nav-item me-5">
+                <a className="nav-link" href="#">
+                  সকল কোর্স
+                </a>
+              </li>
+
+              {/* <li className="nav-item dropdown me-5">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -73,15 +83,25 @@ const Navigation = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item me-5">
-          <a className="nav-link" href="#">ক্যারিয়ার</a>
-        </li>
+                <a className="nav-link" href="#">
+                  ক্যারিয়ার
+                </a>
+              </li>
               <li className="nav-item">
-          <a className="nav-link" href="#">যোগাযোগ</a>
-        </li>
+                <a className="nav-link" href="#">
+                  যোগাযোগ
+                </a>
+              </li>
             </ul>
-            <button className="regular-btn d-flex justify-content-center"><i className='fa-solid fa-arrow-right-to-bracket me-2 fs-5'></i><span>লগ-ইন</span></button>
+            <Link to="login">
+              {" "}
+              <button className="regular-btn d-flex justify-content-center">
+                <i className="fa-solid fa-arrow-right-to-bracket me-2 fs-5"></i>
+                <span>লগ-ইন</span>
+              </button>
+            </Link>
           </div>
         </div>
       </nav>

@@ -12,6 +12,7 @@
 .project{
     position: relative;
     overflow: hidden;
+    border-radius: 30px;
 }
 .project img{
     transition: all 0.4s ease;
@@ -28,4 +29,7 @@
 }
 .courses .owl-carousel .owl-dots .owl-dot span{
     margin: 7px 1px -20px;
+}
+.courses-icon{
+    cursor: pointer;
 }

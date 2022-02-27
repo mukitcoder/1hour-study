@@ -202,7 +202,13 @@ const Courses = () => {
                 alt="coursesPic"
               />
               <div className="card-body overlay">
-                <h5 className="card-title fw-bold">{pd?.title}</h5>
+               <div className="d-flex justify-content-between">
+               <h5 className="card-title fw-bold">{pd?.title}</h5>
+                <div className="courses-icon text-danger">
+                <i className="fa-regular fa-heart me-3"></i>
+                  <i className="fa-solid fa-cart-shopping me-2"></i>
+                </div>
+               </div>
                 <p className="card-text">{pd?.des}</p>
                 <div className="d-flex justify-content-between align-items-center">
                   <button className="regular-btn">শেখা শুরু করুন</button>

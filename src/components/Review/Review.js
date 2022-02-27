@@ -101,7 +101,7 @@ const Review = () => {
                   return (
                     <ReviewDetails
                       testiMonialDetail={testiMonialDetail}
-                      key={testiMonialDetail._key}
+                      key={testiMonialDetail.name}
                     />
                   );
                 })
