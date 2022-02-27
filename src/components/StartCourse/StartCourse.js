@@ -10,8 +10,8 @@ const StartCourse = () => {
   return (
     <div className="expertise-main py-3 my-5">
       <div className="expertise-text row mb-4 mx-2">
-        <div className="col-md-7 d-flex justify-content-center align-items-center mx-auto">
-          <img className="img-fluid" src={abc1} alt="expertPic" />
+        <div className="col-md-7 d-flex justify-content-center align-items-center mx-auto my-5 py-3">
+          {/* <img className="img-fluid" src={abc1} alt="expertPic" /> */}
           <h2 className="fw-bold">
             অনলাইনে <span className="hero-text">কোর্স</span> কিভাবে শুরু করবেন ?
           </h2>

@@ -7,8 +7,8 @@ const Instructors = () => {
   return (
     <div className="expertise-main py-3 my-5">
       <div className="expertise-text row mb-4">
-        <div className="col-md-6 d-flex justify-content-center align-items-center mx-auto">
-          <img className="img-fluid" src={abc4} alt="expertPic" />
+        <div className="col-md-6 d-flex justify-content-center align-items-center mx-auto py-3 my-5">
+          {/* <img className="img-fluid" src={abc4} alt="expertPic" /> */}
           <h2 className="fw-bold">
             আমাদের <span className="hero-text">অভিজ্ঞ প্রশিক্ষকবৃন্দ</span>
           </h2>
