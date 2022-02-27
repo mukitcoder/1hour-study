@@ -12,7 +12,7 @@ const SkillDevelopment = () => {
     <div className="expertise-main py-3 my-5">
       <div className="container pb-4">
       <div className="expertise-text-2 row mx-2 px-2">
-        <div className="col-md-9 col-sm-12 d-flex justify-content-center align-items-center mx-auto">
+        <div className="col-md-9 col-sm-12 d-flex justify-content-center align-items-center mx-auto text-center my-5">
           <img
             className="img-fluid d-none d-lg-block"
             src={abc3}
