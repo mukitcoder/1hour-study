@@ -22,3 +22,7 @@
 .overlay:hover h5{
     color: #C42F46;
 }
+
+.courses .owl-carousel .owl-item img{
+ width: 15%;
+}
