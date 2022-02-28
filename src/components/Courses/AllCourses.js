@@ -60,9 +60,8 @@ const AllCourses = () => {
   return (
     <div className="container mb-3">
       <h2 className="text-center fw-bold w-75 mx-auto my-5">
-        আইটি স্কিলে নিজেকে দক্ষ করে তুলতে ক্যাটাগরি থেকে নিজের পছন্দের কোর্স
-        নির্বাচন করুন এবং শিখে অনলাইনে{" "}
-        <span className="hero-text">দক্ষ ক্যারিয়ার</span> তৈরি করুন।{" "}
+        নিজের পছন্দের কোর্স নির্বাচন করুন এবং শিখে অনলাইনে{" "}
+        <span className="hero-text">দক্ষ ক্যারিয়ার</span> তৈরি করুন{" "}
       </h2>
 
       {/* tab-menu start */}

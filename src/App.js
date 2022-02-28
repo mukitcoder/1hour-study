@@ -8,7 +8,11 @@ import Footer from "./components/Footer/Footer";
 import Register from "./components/Login/Register";
 import AllCourses from "./components/Courses/AllCourses";
 
+
+
+
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -21,7 +25,9 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
+    
     </div>
+    
   );
 }
 

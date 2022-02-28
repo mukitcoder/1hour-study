@@ -16,6 +16,7 @@ import nft from "../../images/icons/nft.png";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import { Zoom } from "react-reveal";
 
 const Courses = () => {
   const [items, setItems] = useState([]);
@@ -59,11 +60,15 @@ const Courses = () => {
   };
   return (
     <div className="container">
-      <h2 className="text-center fw-bold w-75 mx-auto my-5">
+     <Zoom duration={3000} delay={4000}>
+     <div>
+     <h2 className="text-center fw-bold w-75 mx-auto my-5">
         আইটি স্কিলে নিজেকে দক্ষ করে তুলতে ক্যাটাগরি থেকে নিজের পছন্দের কোর্স
         নির্বাচন করুন এবং শিখে অনলাইনে{" "}
-        <span className="hero-text">দক্ষ ক্যারিয়ার</span> তৈরি করুন।{" "}
+        <span className="hero-text">দক্ষ ক্যারিয়ার</span> তৈরি করুন{" "}
       </h2>
+     </div>
+     </Zoom>
 
       {/* tab-menu start */}
 
