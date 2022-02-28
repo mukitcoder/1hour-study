@@ -10,9 +10,9 @@ const Login = () => {
   return (
     <div className="container my-5">
       <div className="row g-5">
-        <div className="col-md-6 col-sm-12">
+        <div className="col-md-6 col-sm-12 shadow rounded-3">
           <div className="login-form text-center">
-            <img className="" src={logo} alt="" />
+            <img className="mt-3" src={logo} alt="" />
             <h2 className="fw-bold my-4">সাইন ইন করুন</h2>
             <p>
               রেজিস্ট্রেশনের সময় যে ই-মেইল এড্রেস এবং পাসওয়ার্ড দিয়ে অ্যাকাউন্ট

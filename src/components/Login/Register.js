@@ -10,9 +10,9 @@ const Register = () => {
   return (
     <div className="container my-5">
       <div className="row g-5">
-        <div className="col-md-6 col-sm-12">
+        <div className="col-md-6 col-sm-12 shadow rounded-3">
           <div className="login-form text-center">
-            <img className="" src={logo} alt="" />
+            <img className="mt-3" src={logo} alt="" />
             <h2 className="fw-bold my-4">অ্যাকাউন্ট তৈরি করুন</h2>
             <p>
               নিচের ফর্মটি পূরণ করে রেজিস্ট্রেশন সম্পন্ন করুন। রেজিস্ট্রেশন করার
@@ -70,7 +70,7 @@ const Register = () => {
           <p className="text-center lead my-4">
             যদি কোন একাউন্ট থাকে তাহলে <Link to="/login">সাইন ইন করুন</Link>
           </p>
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center mb-4">
             <div className="me-3 login-logo d-flex justify-content-center align-items-center">
               <img src={facebook} alt="" />
             </div>

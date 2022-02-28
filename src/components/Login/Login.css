@@ -10,6 +10,7 @@
 }
 .login-btn:hover{
     background: #54ADFC;
+    color: #fff;
 }
 .login-picture img{
     height: 560px;
