@@ -8,9 +8,11 @@ const Navigation = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
+          <Link to="/">
           <a className="navbar-brand" href="#">
             <img src={logo} alt="brand-logo" />
           </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -31,11 +33,13 @@ const Navigation = () => {
                </a>
               </li>
               </Link>
+              <Link to="allCourses">
               <li className="nav-item me-5">
                 <a className="nav-link" href="#">
                   সকল কোর্স
                 </a>
               </li>
+              </Link>
 
               {/* <li className="nav-item dropdown me-5">
                 <a

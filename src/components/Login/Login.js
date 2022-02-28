@@ -4,6 +4,7 @@ import logo from "../../images/logo.png";
 import facebook from "../../images/icons/fb.png";
 import google from "../../images/icons/google.png";
 import "./Login.css";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -23,17 +24,18 @@ const Login = () => {
               <input
                 type="email"
                 className="form-control py-3"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
+               
                 placeholder="ইমেইল"
+                required
               />
             </div>
             <div className="mb-4">
               <input
                 type="password"
                 className="form-control py-3"
-                id="exampleInputPassword1"
+               
                 placeholder="পাসওয়ার্ড"
+                required
               />
             </div>
             <button
@@ -55,6 +57,7 @@ const Login = () => {
               <img src={google} alt="" />
             </div>
           </div>
+          <p className="text-center lead mt-4">যদি কোন একাউন্ট না থাকে তাহলে <Link to="/register">সাইন আপ করুন</Link> </p>
         </div>
         <div className="col-md-6  login-picture">
           <img className="d-none d-lg-block" src={loginPic} alt="loginPic" />
