@@ -4,9 +4,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ReviewDetails from "./ReviewDetails";
-import userPic from "../../images/icons/teacher.png";
-import abc2 from "../../images/abc-2.png";
-import reviewImage from "../../images/left-bg-shape.svg";
 
 const Review = () => {
   const testiMonials = [
@@ -59,18 +56,14 @@ const Review = () => {
     },
   };
   return (
-    <section id="testimonial" className="testimonials pt-5">
+    <section className="testimonials pt-5 mb-5">
       <div className="container">
-        <div className="expertise-text-2 row mx-2 px-2">
-          <div className="col-md-9 col-sm-12 mx-auto text-center review-text-main" >
-            
-                <h2 className="fw-bold px-2">
-                  আমাদের শিক্ষার্থীগন{" "}
-                  <span className="hero-text">1 HOUR STUDY</span> সম্পর্কে কি
-                  ধরনের মতামত প্রদান করে থাকেন
-                </h2>
-            
-          </div>
+        <div className="text-center mb-5 pb-2 review-text-main">
+          <h2 className="fw-bold px-2">
+            আমাদের শিক্ষার্থীগন <span className="hero-text">1 HOUR STUDY</span>{" "}
+            সম্পর্কে কি ধরনের <br />
+            মতামত প্রদান করে থাকেন
+          </h2>
         </div>
         <div className="row">
           <div className="col-md-12">
@@ -79,32 +72,14 @@ const Review = () => {
               className="owl-carousel owl-theme"
               {...options}
             >
-              {testiMonials.length === 0 ? (
-                <div class="item">
-                  <div class="shadow-effect">
-                    <img class="img-circle" src={userPic} />
-
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                      magna.
-                    </p>
-                  </div>
-                  <div class="testimonial-name">
-                    <h5>Rajon Rony</h5>
-                    <small>ITALY</small>
-                  </div>
-                </div>
-              ) : (
-                testiMonials.map((testiMonialDetail) => {
-                  return (
-                    <ReviewDetails
-                      testiMonialDetail={testiMonialDetail}
-                      key={testiMonialDetail.name}
-                    />
-                  );
-                })
-              )}
+              {testiMonials.map((testiMonialDetail) => {
+                return (
+                  <ReviewDetails
+                    testiMonialDetail={testiMonialDetail}
+                    key={testiMonialDetail.name}
+                  />
+                );
+              })}
             </OwlCarousel>
           </div>
         </div>

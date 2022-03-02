@@ -7,5 +7,5 @@
 }
 body{
     font-family: 'Hind Siliguri', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }

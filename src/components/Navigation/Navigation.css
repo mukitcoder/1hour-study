@@ -3,8 +3,9 @@ a {
 }
 
 .navbar-brand img {
-  height: 38px;
-  width: 65px;
+  
+  width: 88px;
+  height: 55px;
 }
 
 .nav-item a:hover {
