@@ -9,15 +9,15 @@ import intern from "../../images/icons/skills.png";
 
 const Expertise = () => {
   return (
-    <div className="expertise-main mt-5">
-      <div className="expertise-text row mb-4">
+    <div className="expertise-main mt-5 pt-4">
+      <div className="expertise-text row py-5">
        
           <h2 className="fw-bold text-center">
             আমাদের <span className="hero-text">বিশেষত্ব</span>
           </h2>
      
       </div>
-      <div className="container">
+      <div className="container mt-2">
         <div className="row g-5 pb-5">
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="d-grid bg-white p-2 expertise-section">
