@@ -1,6 +1,7 @@
 .expertise-main{
     /* background: #FEF0EC; */
-    background: #f8dec1;
+    /* background: #f8dec1; */
+    background: #fff9dc;
 }
 .expertise-text img {
     width: 200px;
@@ -16,6 +17,7 @@
 }
 .expertise-section{
     border-radius: 30px;
+    transition: 0.5s;
 }
 .expertise-section:hover{
     box-shadow: 0px 0px 30px 6px rgba(0,0,0,0.19);
@@ -23,4 +25,5 @@
     -moz-box-shadow: 0px 0px 30px 6px rgba(0,0,0,0.19);
     transition: all 0.5s ease;
     cursor: pointer;
+    /* transform: scale(1.1); */
 }

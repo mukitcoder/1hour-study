@@ -59,18 +59,17 @@ const Review = () => {
     },
   };
   return (
-    <section id="testimonial" className="testimonials">
+    <section id="testimonial" className="testimonials pt-5">
       <div className="container">
         <div className="expertise-text-2 row mx-2 px-2">
-          <div className="col-md-9 col-sm-12 d-flex justify-content-center align-items-center mx-auto">
-            <img className="img-fluid d-none d-lg-block" src={abc2} alt="expertPic" />
-            <div className="review-text-main">
+          <div className="col-md-9 col-sm-12 mx-auto text-center review-text-main" >
+            
                 <h2 className="fw-bold px-2">
                   আমাদের শিক্ষার্থীগন{" "}
                   <span className="hero-text">1 HOUR STUDY</span> সম্পর্কে কি
                   ধরনের মতামত প্রদান করে থাকেন
                 </h2>
-            </div>
+            
           </div>
         </div>
         <div className="row">

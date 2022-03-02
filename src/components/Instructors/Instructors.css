@@ -6,6 +6,7 @@
   background: #ffff;
   position: relative;
   overflow: hidden;
+  border-radius: 30px;
 }
 .instructor-main .card::before {
   content: "";
@@ -14,7 +15,7 @@
   height: 100%;
   width: 100%;
   /* background: #f5ddd7; */
-  background: #f1d5b5;
+  background: #FFEAB2;
   transform: skewY(345deg);
   transition: 0.5s;
 }

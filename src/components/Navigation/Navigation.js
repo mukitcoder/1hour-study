@@ -6,7 +6,7 @@ import "./Navigation.css";
 const Navigation = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
           <Link to="/">
           <a className="navbar-brand" href="#">

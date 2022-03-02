@@ -5,7 +5,7 @@ import instructor from "../../images/jhankar-bhai.png";
 
 const Instructors = () => {
   return (
-    <div className="expertise-main py-3 my-5">
+    <div className="expertise-main pb-5">
       <div className="expertise-text row mb-4">
         <div className="col-md-6 d-flex justify-content-center align-items-center mx-auto py-3 my-5">
           {/* <img className="img-fluid" src={abc4} alt="expertPic" /> */}

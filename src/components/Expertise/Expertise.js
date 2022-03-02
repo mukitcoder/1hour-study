@@ -10,7 +10,7 @@ import abc from "../../images/abc.png";
 
 const Expertise = () => {
   return (
-    <div className="expertise-main py-3 my-5">
+    <div className="expertise-main mt-5">
       <div className="expertise-text row mb-4">
         <div className="col-md-4 d-flex justify-content-center align-items-center mx-auto my-5 py-3">
           {/* <img className="img-fluid" src={abc} alt="expertPic" /> */}
@@ -29,7 +29,7 @@ const Expertise = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">নতুনদের জন্য ফ্রি কোর্স</h5>
+                <h5 className="py-2 fw-bold">নতুনদের জন্য ফ্রি কোর্স</h5>
                 <p className="px-2">
                   নতুন যারা কোর্স করবেন তাদের জন্য বেসিক আইটি স্কিলের ফ্রি কোর্স
                   রয়েছে।{" "}
@@ -45,7 +45,7 @@ const Expertise = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">পেইড কোর্সের লাইভ সাপোর্ট</h5>
+                <h5 className="py-2 fw-bold">পেইড কোর্সের লাইভ সাপোর্ট</h5>
                 <p className="px-2">
                   1 HOUR STUDY সকল কোর্সে মেন্টরগন লাইভ সাপোর্ট প্রদান করে থাকে।
                 </p>
@@ -60,7 +60,7 @@ const Expertise = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">অভিজ্ঞ প্রশিক্ষক</h5>
+                <h5 className="py-2 fw-bold">অভিজ্ঞ প্রশিক্ষক</h5>
                 <p className="px-2">
                   দক্ষ ও অভিজ্ঞ প্রশিক্ষক দ্বারা প্রতিটি কোর্স সাজানো হয়ে থাকে।
                 </p>
@@ -75,7 +75,7 @@ const Expertise = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">বাড়ির কাজ</h5>
+                <h5 className="py-2 fw-bold">বাড়ির কাজ</h5>
                 <p className="px-2">
                   প্রতি কোর্সে লাইভ ক্লাস হবে এবং ক্লাসের শেষে বাড়ির কাজ দেয়া
                   হয়ে থাকে।
@@ -91,7 +91,7 @@ const Expertise = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">আপডেট তথ্য ভিত্তিক কোর্স</h5>
+                <h5 className="py-2 fw-bold">আপডেট তথ্য ভিত্তিক কোর্স</h5>
                 <p className="px-2">
                   1 HOUR STUDY সকল কোর্সে প্রশিক্ষকগন আপডেট তথ্য দিয়ে কোর্স
                   সাজিয়ে থাকে।
@@ -107,7 +107,7 @@ const Expertise = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">ইন্টার্নশিপ করার সুযোগ</h5>
+                <h5 className="py-2 fw-bold">ইন্টার্নশিপ করার সুযোগ</h5>
                 <p className="px-2">
                   প্রতিটি অনলাইন কোর্স থেকে কতিপয় শিক্ষার্থীকে ইন্টার্নশিপ করার
                   সুযোগ প্রদান করে থাকি।{" "}

@@ -9,15 +9,10 @@ import career from "../../images/icons/target.png";
 
 const SkillDevelopment = () => {
   return (
-    <div className="expertise-main py-3 my-5">
+    <div className="expertise-main pt-5">
       <div className="container pb-4">
       <div className="expertise-text-2 row mx-2 px-2">
-        <div className="col-md-9 col-sm-12 d-flex justify-content-center align-items-center mx-auto text-center my-5">
-          <img
-            className="img-fluid d-none d-lg-block"
-            src={abc3}
-            alt="expertPic"
-          />
+        <div className="col-md-9 col-sm-12 mx-auto text-center my-5">
           <h2 className="fw-bold">
             1 HOUR STUDY <span className="hero-text">ই-লার্নিং প্লাটফর্ম </span>
             থেকে কেন স্কিল ডেভেলপমেন্ট করবেন ?
@@ -35,7 +30,7 @@ const SkillDevelopment = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">আপডেট কোর্সের ভান্ডার</h5>
+                <h5 className="py-2 fw-bolder">আপডেট কোর্সের ভান্ডার</h5>
               </div>
             </div>
           </div>
@@ -47,7 +42,7 @@ const SkillDevelopment = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">লাইভ ক্লাসের মাধ্যমে সাপোর্ট প্রদান </h5>
+                <h5 className="py-2 fw-bolder">লাইভ ক্লাসের মাধ্যমে সাপোর্ট প্রদান </h5>
               </div>
             </div>
           </div>
@@ -59,7 +54,7 @@ const SkillDevelopment = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">
+                <h5 className="py-2 px-2 fw-bolder">
                   অভিজ্ঞ প্রশিক্ষক দ্বারা শিক্ষার্থীকে পাঠদান করা{" "}
                 </h5>
               </div>
@@ -73,7 +68,7 @@ const SkillDevelopment = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">ফ্রি টুলস ও রিসোর্স সরবরাহ করা</h5>
+                <h5 className="py-2 fw-bolder">ফ্রি টুলস ও রিসোর্স সরবরাহ করা</h5>
               </div>
             </div>
           </div>
@@ -85,7 +80,7 @@ const SkillDevelopment = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">সার্টিফিকেট/সনদ </h5>
+                <h5 className="py-2 fw-bolder">সার্টিফিকেট/সনদ </h5>
               </div>
             </div>
           </div>
@@ -97,7 +92,7 @@ const SkillDevelopment = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">ক্যারিয়ার গঠনে সহায়তা করা </h5>
+                <h5 className="py-2 fw-bolder">ক্যারিয়ার গঠনে সহায়তা করা </h5>
               </div>
             </div>
           </div>

@@ -1,8 +1,12 @@
 .hero-main{
-    /* background: #f1cdd3; */
-    background: #fadab3;
+    /* background: #ffe089; */
+    /* background: #fadab3; */
+    background: #f3b61011;
+    /* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(243,182,16,0.3085609243697479) 100%); */
+   
 }
 .hero-text{
+    /* color: #E87A00; */
     color: #E87A00;
 }
 

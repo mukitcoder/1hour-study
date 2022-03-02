@@ -1,6 +1,5 @@
 import React from "react";
 import "./StartCourse.css";
-import abc1 from "../../images/abc-1.png";
 import step1 from "../../images/icons/step-1.png"
 import step2 from "../../images/icons/step-2.png"
 import step3 from "../../images/icons/step-3.png"
@@ -8,10 +7,9 @@ import step4 from "../../images/icons/step-4.png"
 
 const StartCourse = () => {
   return (
-    <div className="expertise-main py-3 my-5">
+    <div className="expertise-main mb-5">
       <div className="expertise-text row mb-4">
         <div className="col-md-7 col-sm-7 d-flex justify-content-center align-items-center mx-auto my-5 py-3 text-center px-5">
-          {/* <img className="img-fluid" src={abc1} alt="expertPic" /> */}
           <h2 className="fw-bold">
             অনলাইনে <span className="hero-text">কোর্স</span> কিভাবে শুরু করবেন ?
           </h2>
@@ -28,7 +26,7 @@ const StartCourse = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">ধাপ-১ঃ</h5>
+                <h5 className="py-2 fw-bold">ধাপ-১ঃ</h5>
                 <p className="px-2">
                   1 HOUR STUDY ওয়েবসাইটে গিয়ে একাউন্ট তৈরি করে নিবেন
                 </p>
@@ -43,7 +41,7 @@ const StartCourse = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">ধাপ-২ঃ</h5>
+                <h5 className="py-2 fw-bold">ধাপ-২ঃ</h5>
                 <p className="px-2">
                   পছন্দের কোর্স ক্যাটাগরি পেইজ থেকে নির্বাচন করবেন
                 </p>
@@ -58,7 +56,7 @@ const StartCourse = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">ধাপ-৩ঃ</h5>
+                <h5 className="py-2 fw-bold">ধাপ-৩ঃ</h5>
                 <p className="px-2">
                   কোর্স ইনরোল করার সময় অনলাইনে পেমেন্ট করতে হবে সমপরিমান মূল্য
                   প্রদান করে।
@@ -74,7 +72,7 @@ const StartCourse = () => {
                 alt="expertiseImage"
               />
               <div className="text-center">
-                <h5 className="py-2">ধাপ-৪ঃ</h5>
+                <h5 className="py-2 fw-bold">ধাপ-৪ঃ</h5>
                 <p className="px-2">স্কিল অর্জন ও চর্চা শুরু করুন।</p>
               </div>
             </div>
