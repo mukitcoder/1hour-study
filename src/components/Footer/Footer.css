@@ -1,13 +1,14 @@
 .footer-main{
-    background: #ffeab2;
+    background: #011e56;
+    color: #fff;
 }
 .footer-main h5:hover{
    cursor: pointer;
    color: #C42F46;
 }
 .footer-section img{
-    width: 120px;
-    height: 65px;
+    width: 150px;
+    height: 93px;
 }
 .footer-main ul {
     list-style: none;
