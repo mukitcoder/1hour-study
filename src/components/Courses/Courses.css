@@ -1,12 +1,15 @@
+.tab-btn{
+    border-radius: 15px;
+}
 .tab-btn:hover{
     background-color: #F1CDD3 !important;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
     color: #C42F46;
 }
 .tab-btn img {
     height: 50px;
-    width: 50px;
+    width: 50px !important;
 }
 
 .project{
@@ -24,11 +27,14 @@
     color: #C42F46;
 }
 
+.courses{
+    border-radius: 15px;
+}
 .courses .owl-carousel .owl-item img{
  width: 15%;
 }
 .courses .owl-carousel .owl-dots .owl-dot span{
-    margin: 7px 1px -20px;
+    margin: -9px 6px 0px !important;
 }
 .courses-icon{
     cursor: pointer;

@@ -6,18 +6,16 @@ import teacher from "../../images/icons/teacher.png";
 import homeWork from "../../images/icons/home-work.png";
 import info from "../../images/icons/info.png";
 import intern from "../../images/icons/skills.png";
-import abc from "../../images/abc.png";
 
 const Expertise = () => {
   return (
     <div className="expertise-main mt-5">
       <div className="expertise-text row mb-4">
-        <div className="col-md-4 d-flex justify-content-center align-items-center mx-auto my-5 py-3">
-          {/* <img className="img-fluid" src={abc} alt="expertPic" /> */}
-          <h2 className="fw-bold">
+       
+          <h2 className="fw-bold text-center">
             আমাদের <span className="hero-text">বিশেষত্ব</span>
           </h2>
-        </div>
+     
       </div>
       <div className="container">
         <div className="row g-5 pb-5">
