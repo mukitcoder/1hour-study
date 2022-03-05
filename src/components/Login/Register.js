@@ -64,7 +64,7 @@ const Register = () => {
               type="submit"
               className="btn login-btn fw-bolder fs-4 w-100"
             >
-              সাইন ইন
+              সাইন আপ
             </button>
           </form>
           <p className="text-center lead my-4">

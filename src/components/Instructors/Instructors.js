@@ -1,7 +1,6 @@
 import React from "react";
 import "./Instructors.css";
-import abc4 from "../../images/abc-4.png";
-import instructor from "../../images/jhankar-bhai.png";
+import instructor from "../../images/user.png";
 
 const Instructors = () => {
   return (
@@ -26,7 +25,7 @@ const Instructors = () => {
                 alt="instructorPic"
               />
               <div className="card-body">
-                <h5 className="card-title fw-bolder">ঝংকার মাহবুব</h5>
+                <h5 className="card-title fw-bolder">হাসিন হায়দার</h5>
                 <p className="card-text lead">
                   এক দশক ধরে প্রোগ্রমিং ও ওয়েব ডেভেলপমেন্টের সাথে জড়িত। বুয়েটের
                   পড়ালেখা শেষ করার পর কম্পিউটার সায়েন্সে মাস্টার্স করেন আমেরিকার
@@ -50,7 +49,7 @@ const Instructors = () => {
                 alt="instructorPic"
               />
               <div className="card-body">
-                <h5 className="card-title fw-bolder">ঝংকার মাহবুব</h5>
+                <h5 className="card-title fw-bolder">হাসিন হায়দার</h5>
                 <p className="card-text lead">
                   এক দশক ধরে প্রোগ্রমিং ও ওয়েব ডেভেলপমেন্টের সাথে জড়িত। বুয়েটের
                   পড়ালেখা শেষ করার পর কম্পিউটার সায়েন্সে মাস্টার্স করেন আমেরিকার
@@ -74,7 +73,7 @@ const Instructors = () => {
                 alt="instructorPic"
               />
               <div className="card-body">
-                <h5 className="card-title fw-bolder">ঝংকার মাহবুব</h5>
+                <h5 className="card-title fw-bolder">হাসিন হায়দার</h5>
                 <p className="card-text lead">
                   এক দশক ধরে প্রোগ্রমিং ও ওয়েব ডেভেলপমেন্টের সাথে জড়িত। বুয়েটের
                   পড়ালেখা শেষ করার পর কম্পিউটার সায়েন্সে মাস্টার্স করেন আমেরিকার

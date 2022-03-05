@@ -13,7 +13,7 @@ const Review = () => {
       description:
         "ফ্রিল্যান্সিং নিয়ে আমার তেমন জানা ছিলো না। 1 Hour Study এর Freelancing with Adobe Illustrator কোর্সটি করে ডিজাইন ও প্রজেক্ট সম্পর্কে ধারণা পেয়েছি। কোর্স শেষে অনলাইন মার্কেটপ্লেসে কাজ করার গাইডলাইন পেয়েছি।",
       address: "ঢাকা",
-      img: "https://i.ibb.co/hgGJc8d/Gareth-Bale.jpg",
+      img: "https://i.ibb.co/X3XWCbr/user.png",
     },
     {
       name: "সারমিন সুলতানা",
@@ -21,7 +21,7 @@ const Review = () => {
       description:
         "আমি কয়েকটি লার্নিং প্লাটফর্মে ক্লাস করেছি অনেক সময় প্রাসঙ্গিক কথাকে অনেক দীর্ঘ সময় নিয়ে আলোচনা করায় মূল পয়েন্ট থেকে মনযোগ বিচ্যুত হয়েছে কিন্তু 1 Hour Study এর কোর্সগুলো একদম মূল বিষয়ের উপর ফোকাস করে তৈরি করা হয়েছে।",
       address: "খুলনা",
-      img: "https://i.ibb.co/Kr2sR8b/hannah-busing-ff5-K3-k-YPHA-unsplash.jpg",
+      img: "https://i.ibb.co/X3XWCbr/user.png",
     },
     {
       name: "মিজানুর রাহমান",
@@ -29,7 +29,7 @@ const Review = () => {
       description:
         "আমরা সাধারনত বিভিন্ন টিউটোরিয়ালগুলো অনলাইনে ইংরেজিতে পেয়ে থাকি। তবে 1 Hour Study প্লাটফর্মে আমি এখন আন্তর্জাতিক মানের কোর্স শিখতে পারছি সহজেই।",
       address: "রাজশাহী",
-      img: "https://i.ibb.co/CP5sj7g/2856040-58866808-2560-1440.jpg",
+      img: "https://i.ibb.co/X3XWCbr/user.png",
     },
   ];
   //Owl Carousel Settings

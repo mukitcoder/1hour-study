@@ -2,7 +2,7 @@
   {
     "id": 1,
     "category": "photoshop",
-    "image": "https://i.ibb.co/tptG5wS/photoshop-1.jpg",
+    "image": "https://i.ibb.co/qNS6zN1/photoshop-1.jpg",
     "title": "ফটোশপ ম্যাজিক কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "category": "photoshop",
-    "image": "https://i.ibb.co/tptG5wS/photoshop-1.jpg",
+    "image": "https://i.ibb.co/qNS6zN1/photoshop-1.jpg",
     "title": "ফটোশপ ম্যাজিক কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "category": "photoshop",
-    "image": "https://i.ibb.co/0qZw81z/photoshop-3.jpg",
+    "image": "https://i.ibb.co/GP5L1yb/photoshop-3.jpg",
     "title": "ফটোশপ মাস্টার কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "category": "graphic",
-    "image": "https://i.ibb.co/HdMxKQS/graphic-design.jpg",
+    "image": "https://i.ibb.co/j31dpSJ/graphic-design.jpg",
     "title": "গ্রাফিক্স ডিজাইন ম্যাজিক কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "category": "adobe",
-    "image": "https://i.ibb.co/XCBNzq2/Illustrator-1.jpg",
+    "image": "https://i.ibb.co/n3hcDzK/Illustrator-1.jpg",
     "title": "অ্যাডোবি ইলাস্ট্রেটর মাস্টার কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "category": "adobe",
-    "image": "https://i.ibb.co/XCBNzq2/Illustrator-1.jpg",
+    "image": "https://i.ibb.co/n3hcDzK/Illustrator-1.jpg",
     "title": "অ্যাডোবি ইলাস্ট্রেটর মাস্টার কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "category": "webDesign",
-    "image": "https://i.ibb.co/NWgtcVH/web-deisgn.jpg",
+    "image": "https://i.ibb.co/Q9BFkJg/web-deisgn.jpg",
     "title": "ওয়েব ডিজাইন এন্ড ডেভেলপমেন্ট",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -58,15 +58,15 @@
   {
     "id": 8,
     "category": "computer",
-    "image": "https://i.ibb.co/rxVgHzH/computer.jpg",
-    "title": "কম্পিউটার শিখুন নতুন ও সহজভাবে",
+    "image": "https://i.ibb.co/QrgyB1X/computer.jpg",
+    "title": "কম্পিউটার শিখুন সহজভাবে",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
   },
   {
     "id": 9,
     "category": "cpa",
-    "image": "https://i.ibb.co/Qnqjvtm/cpa.jpg",
+    "image": "https://i.ibb.co/sC5PBZm/cpa.jpg",
     "title": "সিপিএ মাস্টার কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "category": "fiverr",
-    "image": "https://i.ibb.co/qRNDfmk/fiverr.jpg",
+    "image": "https://i.ibb.co/s2fhQLp/fiverr.jpg",
     "title": "ফাইভার মাস্টার কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "category": "git",
-    "image": "https://i.ibb.co/gzHgq23/git.jpg",
+    "image": "https://i.ibb.co/DkyDKH6/git.jpg",
     "title": "গিট ম্যাজিক কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "category": "googleAds",
-    "image": "https://i.ibb.co/3k3QVPS/google-ads.jpg",
+    "image": "https://i.ibb.co/99XMgJN/google-ads.jpg",
     "title": "গুগল এডস ম্যাজিক কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "category": "seo",
-    "image": "https://i.ibb.co/0yT9c7S/seo.jpg",
+    "image": "https://i.ibb.co/r3Y4Q6n/seo.jpg",
     "title": "এসইও মাস্টার কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "category": "spokenEnglish",
-    "image": "https://i.ibb.co/YNFwvPZ/spoken-english.jpg",
+    "image": "https://i.ibb.co/GMnPy1F/spoken-english.jpg",
     "title": "স্পোকেন ইংলিশ ম্যাজিক কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "category": "wordpress",
-    "image": "https://i.ibb.co/6RhbPwM/wordpress-1.jpg",
+    "image": "https://i.ibb.co/80222Dc/wordpress-1.jpg",
     "title": "ওয়ার্ডপ্রেস ম্যাজিক কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -122,7 +122,7 @@
   {
     "id": 16,
     "category": "wordpress",
-    "image": "https://i.ibb.co/9T5qRCh/wordpress-2.jpg",
+    "image": "https://i.ibb.co/D8VRDwL/wordpress-2.jpg",
     "title": "ওয়ার্ডপ্রেস মাস্টার কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
@@ -130,9 +130,25 @@
   {
     "id": 17,
     "category": "wordpress",
-    "image": "https://i.ibb.co/6RhbPwM/wordpress-1.jpg",
+    "image": "https://i.ibb.co/80222Dc/wordpress-1.jpg",
     "title": "ওয়ার্ডপ্রেস ম্যাজিক কোর্স",
     "des": "স্কিল অর্জন করে লোকাল মার্কেটে কাজের সুযোগ আছে। অনলাইনে গ্লোবাল মার্কেটেও কাজ করতে পারবেন। Fiverr, Upwork, Freelancer এর মতো গ্লোবাল মার্কেটপ্লেসে Freelancing করতে পারবেন।",
     "price": "৫০০ টাকা"
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
