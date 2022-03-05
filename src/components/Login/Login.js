@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div className="container my-5">
-      <div className="row g-5">
-        <div className="col-md-6 col-sm-12 shadow rounded-3">
+    <div className="container my-5 login-main">
+      <div className="row g-3">
+        <div className="col-md-6 col-sm-12 login-sub px-5 py-2">
           <div className="login-form text-center">
             <img className="mt-3" src={logo} alt="" />
             <h2 className="fw-bold my-4">সাইন ইন করুন</h2>
@@ -57,7 +57,7 @@ const Login = () => {
               <img src={google} alt="" />
             </div>
           </div>
-          <p className="text-center lead mt-4">যদি কোন একাউন্ট না থাকে তাহলে <Link to="/register">সাইন আপ করুন</Link> </p>
+          <p className="text-center lead mt-4 text-danger fw-bold">যদি কোন একাউন্ট না থাকে তাহলে <Link to="/register">সাইন আপ করুন</Link> </p>
         </div>
         <div className="col-md-6  login-picture">
           <img className="d-none d-lg-block" src={loginPic} alt="loginPic" />

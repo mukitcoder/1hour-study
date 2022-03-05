@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
-    <div className="container my-5">
-      <div className="row g-5">
-        <div className="col-md-6 col-sm-12 shadow rounded-3">
+    <div className="container my-5 login-main">
+      <div className="row g-3">
+        <div className="col-md-6 col-sm-12 login-sub px-5 py-2">
           <div className="login-form text-center">
             <img className="mt-3" src={logo} alt="" />
             <h2 className="fw-bold my-4">অ্যাকাউন্ট তৈরি করুন</h2>
@@ -67,7 +67,7 @@ const Register = () => {
               সাইন আপ
             </button>
           </form>
-          <p className="text-center lead my-4">
+          <p className="text-center lead my-4 text-danger fw-bold">
             যদি কোন একাউন্ট থাকে তাহলে <Link to="/login">সাইন ইন করুন</Link>
           </p>
           <div className="d-flex justify-content-center mb-4">

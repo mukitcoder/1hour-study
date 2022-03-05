@@ -101,9 +101,8 @@ const Navigation = () => {
             </ul>
             <Link to="login">
               {" "}
-              <button className="regular-btn d-flex justify-content-center">
-                <i className="fa-solid fa-arrow-right-to-bracket me-2 fs-5"></i>
-                <span>লগ-ইন</span>
+              <button className="regular-btn">
+                <span>লগ-ইন / সাইন আপ</span>
               </button>
             </Link>
           </div>

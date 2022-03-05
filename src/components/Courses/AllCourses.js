@@ -210,8 +210,9 @@ const AllCourses = () => {
                </div>
                 <p className="card-text">{pd?.des}</p>
                 <div className="d-flex justify-content-between align-items-center">
-                  <button className="regular-btn">শেখা শুরু করুন</button>
-                  <h6 className="fw-bold">ফি {pd.price}</h6>
+                  <a className="regular-btn" href={pd?.youTubeLink} target="_blank" rel="noreferrer">শেখা শুরু করুন</a>
+                 
+                 <del> <h6 className="fw-bold">ফি {pd.price}</h6></del>
                 </div>
               </div>
             </div>
