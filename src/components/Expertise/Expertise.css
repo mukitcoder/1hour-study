@@ -1,7 +1,6 @@
 .expertise-main{
     background: #f3b61011;
-    /* background: #f8dec1; */
-    /* background: #fff9dc; */
+    overflow-x: hidden;
 }
 .expertise-text img {
     width: 200px;
